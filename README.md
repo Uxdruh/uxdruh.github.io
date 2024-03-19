@@ -1,1 +1,5 @@
-# uxdruh.github.io
+title: Claire
+#logo: /assets/img/headshot_circle.png
+#description: text below image
+show_downloads: false
+theme: jekyll-theme-minimal
