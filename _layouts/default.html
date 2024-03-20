@@ -11,10 +11,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
     {% include head-custom.html %}
+    <div class="navbtn">
+      
+    </div>
   </head>
   <body>
     <div class="wrapper">
       <header>
+        <ul class="navbtn">
+          <li><a href="/"><strong>Home</strong></a></li>
+          <li><a href="/"><strong>Blogs</strong></a></li>
+        </ul>
+        
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
