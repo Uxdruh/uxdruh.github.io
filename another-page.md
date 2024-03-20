@@ -6,4 +6,4 @@ layout: default
 
 _yay_
 
-[<h1>🔙back</h1>](./)
+[**⬅back**](./)
