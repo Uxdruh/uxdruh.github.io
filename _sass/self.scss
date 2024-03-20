@@ -1,67 +1,49 @@
-@import "fonts";
-@import "rouge-github";
-
-ul.navbtn {
-  list-style:none;
-  height:40px;
-  padding:0;
+.navbtn {
+  list-style: none;
+  height: 40px;
+  padding: 0;
   background: #f4f4f4;
-  border-radius:5px;
-  border:1px solid #e0e0e0;
-  width:270px;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  text-align: right;
 }
 
 .navbtn li {
-  width:89px;
-  float:right;
-  border-right:1px solid #e0e0e0;
-  height:40px;
-}
-
-.navbtn li:first-child a {
-  border-radius:5px 0 0 5px;
-}
-
-.navbtn li:last-child a {
-  border-radius:0 5px 5px 0;
+  float: none;
+  display: inline-block;
+  border-right: none;
+  height: 40px;
+  width: auto;
+  min-width: 89px;
 }
 
 .navbtn a {
-  line-height:1;
-  font-size:11px;
-  color:#676767;
-  display:block;
-  text-align:center;
-  padding-top:6px;
-  height:34px;
+  line-height: 1;
+  font-size: 11px;
+  color: #676767;
+  display: block;
+  text-align: center;
+  padding: 6px 10px;
+  height: 34px;
+  font-weight: normal;
 }
 
-.navbtn a:hover, .navbtn a:focus {
-  color:#675C5C;
-  font-weight:bold;
-}
-
-.navbtn ul a:active {
-  background-color:#f0f0f0;
-}
-
-.navbtn li + li + li {
-  border-right:none;
-  width:89px;
+.navbtn a:hover,
+.navbtn a:focus {
+  color: #675c5c;
+  background-color: #f0f0f0;
+  font-weight: bold;
 }
 
 .navbtn a strong {
-  font-size:14px;
-  display:block;
-  color:#222;
+  font-size: 14px;
+  display: block;
+  color: #222;
 }
 
 @media print, screen and (max-width: 480px) {
-  .navbtn {
-    width:99%;
-  }
-
-  .navbtn li, .navbtn li + li + li {
-    width:33%;
+  .navbtn li {
+    display: block;
+    width: 100%;
   }
 }
