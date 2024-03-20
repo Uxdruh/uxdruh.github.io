@@ -3,7 +3,6 @@
   height: 40px;
   padding: 0;
   background: transparent;
-  border-radius: 5px;
   border: 1px solid #e0e0e0;
   text-align: right;
 }
@@ -20,13 +19,13 @@
 }
 
 .navbtn a {
-  line-height: 1;
+  line-height: 40px;
   font-size: 11px;
   color: #676767;
   display: block;
   text-align: center;
-  padding: 6px 10px;
-  height: 34px;
+  padding: 0;
+  height: 40px;
   font-weight: normal;
   border-radius: 5px;
 }
